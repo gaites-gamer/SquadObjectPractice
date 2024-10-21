@@ -1,0 +1,18 @@
+{
+    "layer_attributes": {
+        "map": "Level",
+        "gamemode": "Layer",
+        "balance_differential": "Balance_Differential",
+        "asymmetry_score": "Asymmetry Score"
+    },
+    "team1_attributes": {
+        "faction": "Faction_1",
+        "subfaction": "SubFac_1",
+        "numerical_attributes": ["Logistics_1", "Transportation_1", "Anti-Infantry_1", "Armor_1", "ZERO_Score_1"]
+    },
+    "team2_attributes": {
+        "faction": "Faction_2",
+        "subfaction": "SubFac_2",
+        "numerical_attributes": ["Logistics_2", "Transportation_2", "Anti-Infantry_2", "Armor_2", "ZERO_Score_2"]
+    }
+}
