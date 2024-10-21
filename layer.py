@@ -48,8 +48,8 @@ class Layer:
             map: str = 'Unknown',
             gamemode: str = 'Unknown',
             version: str = 'v1',
-            team1: Team = None,
             team2: Team = None,
+            team1: Team = None,
             balance_differential: float = 0.0,
             asymmetry_score: float = 0.0
     ):
@@ -79,7 +79,6 @@ class Layer:
 
     @property
     def setcode(self) -> str:
-        # This property generates the setcode value on-demand
         if self._setcode == 'Unknown':
             self._setcode = (
                 f'{self.map}_{self.gamemode}_{self.version} '
